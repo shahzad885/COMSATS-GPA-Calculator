@@ -21,15 +21,6 @@ A comprehensive Flutter application for calculating both Semester GPA (SGPA) and
   <img src="https://github.com/user-attachments/assets/4782e9db-d74c-43d9-a10f-f78da477e885" width="280" alt="Menu">
   <img src="https://github.com/user-attachments/assets/a325bc33-c763-4839-a585-66c5118548f1" width="280" alt="Grading Criteria">
 
-</p>
-
-<p align="center">
-
-</p>
-
-<p align="center">
-</p>
-
 
 The app includes:
 1. **SGPA Calculator Screen**: Input course percentages and credit hours
@@ -124,25 +115,6 @@ flutter pub get
 flutter run
 ```
 
-## Project Structure
-
-```
-lib/
-├── main.dart                 # App entry point
-├── screens/
-│   ├── sgpa_calculator.dart  # SGPA calculation screen
-│   ├── cgpa_calculator.dart  # CGPA calculation screen
-│   ├── grading_criteria.dart # Grading scale display
-│   └── main_menu.dart        # Navigation menu
-├── models/
-│   ├── course.dart           # Course data model
-│   └── semester.dart         # Semester data model
-├── utils/
-│   └── gpa_calculator.dart   # Calculation logic
-└── widgets/
-    ├── course_input.dart     # Course input widget
-    └── result_display.dart   # Results display widget
-```
 
 ## Usage
 
@@ -175,18 +147,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
 ```
-
-## Contributing
-
-1. Fork the project
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
